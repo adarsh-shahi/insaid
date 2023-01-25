@@ -545,7 +545,7 @@ footer {
 .contact-container {
 	height: 100rem;
 	max-width: 160rem;
-	margin: 0 5rem;
+	margin: 0 auto;
   margin-bottom: 10rem;
 	border-radius: 10rem;
 	padding: 4rem 10rem;
@@ -769,6 +769,9 @@ footer {
   .contact-container{
     column-gap: 5rem;
   }
+  .form{
+    /* padding: 0 10rem; */
+  }
 }
 
 /* ********************************** */
@@ -798,6 +801,8 @@ footer {
   }
   .contact-container .details{
     order: 2;
+    align-self: center;
+    /* text-align: center; */
   }
   .contact-container .social-links{
     align-self: center;
@@ -915,6 +920,14 @@ footer {
   }
   .message textarea{
     width: 20rem;
+  }
+
+  .contact-nav a{
+    font-size: 3.4rem;
+  }
+
+  .contact-container {
+    padding: 0 2rem;
   }
 
   
